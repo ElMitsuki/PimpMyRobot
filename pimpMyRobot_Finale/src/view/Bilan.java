@@ -84,7 +84,7 @@ public class Bilan extends javax.swing.JFrame {
         scp_stats.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         scp_stats.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         btn_cadeau.setVisible(false);
-        
+
 
         this.setIconImage((new javax.swing.ImageIcon(getClass().getResource("/image/pimpMyRobotProjectIcon.jpg"))).getImage());
         this.setResizable(false);
@@ -266,22 +266,22 @@ public class Bilan extends javax.swing.JFrame {
             _panelStats.add(Box.createRigidArea(new Dimension(1, 5)));
         }
         scp_stats.setViewportView(_panelStats);
-        
 
-        
+
+
         if((_fenetreAppelante.getGame().getScore() >= 5) && (_fenetreAppelante.getGame().getScore() == _fenetreAppelante.getGame().getNbSituations()) ){
             btn_cadeau.setVisible(true);
         }
 
     }
-    
+
     public void recompense(){
         JFrame recompense = new JFrame();
         recompense.setSize(600, 400);
         recompense.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         recompense.setLocationRelativeTo(null);
 
-        JLabel jl_image = new JLabel(new javax.swing.ImageIcon(getClass().getResource("/image/mereNoelCensure.jpeg")));
+        JLabel jl_image = new JLabel(new javax.swing.ImageIcon(getClass().getResource("/image/mereNoelCensure.jpg")));
         recompense.setContentPane(jl_image);
         recompense.getContentPane().setLayout(new FlowLayout());
 
