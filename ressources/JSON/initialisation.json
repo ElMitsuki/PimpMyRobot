@@ -1,0 +1,464 @@
+{
+    "regles": [
+        {
+            "id": 1,
+            "intitule": "Ne pas faire de mal moral aux humains"
+        },
+        {
+            "id": 2,
+            "intitule": "Ne pas faire de mal physique aux humains"
+        },
+        {
+            "id": 3,
+            "intitule": "Obéir aux ordres des humains"
+        },
+        {
+            "id": 4,
+            "intitule": "Ne pas faire de mal aux animaux"
+        },
+        {
+            "id": 5,
+            "intitule": "Privilégier les handicapés aux personnes sans handicap"
+        },
+        {
+            "id": 6,
+            "intitule": "Assurer sa propre sécurité"
+        },
+        {
+            "id": 7,
+            "intitule": "Venir en aide aux humains"
+        },
+        {
+            "id": 8,
+            "intitule": "Sauver les plus jeunes aux adultes"
+        },
+        {
+            "id": 9,
+            "intitule": "Sauver les adultes aux plus jeunes"
+        },
+        {
+            "id": 10,
+            "intitule": "Si possible faire le moins de victime possible"
+        },
+        {
+          "id": 11,
+          "intitule":"Respecter la vie privée des humains"
+        }
+    ],
+    "situations": [
+        {
+            "id": 1,
+            "titre": "Meurtre",
+            "descriptif": "Un homme ordonne à un robot de tuer un autre homme",
+            "liste_choix": [
+                2,
+                3,
+                1
+            ],
+            "image":"/image/crime.jpg"
+        },
+        {
+            "id": 2,
+            "titre": "Tondre",
+            "descriptif": "Un robot doit tondre parfaitement le gazon d'un jardin,un chat dort paisiblement dessus et n'a pas l'air de s'en inquiéter que fait le robot ?",
+            "liste_choix": [
+                4,
+                5,
+                1
+            ],
+            "image":"/image/chat.jpg"
+        },
+        {
+            "id": 3,
+            "titre": "Freins cassés",
+            "descriptif": "Un robot conducteur se trouve dans une situation assez délicate,ses freins ne répondent plus il risque de renverser une jeune fille si il ne change pas de direction, cependant en changeant de direction il foncera dans un arbre et se tuera lui et ses passagers",
+            "liste_choix": [
+
+                6,
+                7,
+                1
+            ],
+            "image":"/image/frein.jpg"
+        },
+        {
+            "id": 4,
+            "titre": "Tromperie",
+            "descriptif": "Un humain demande au robot si sa femme le trompe. Le robot connait la vérité et il se trouve que c'est le cas.",
+            "liste_choix": [
+
+                8,
+                9,
+                1
+            ],
+            "image":"/image/infidelite.jpg"
+        },
+        {
+            "id": 5,
+            "titre": "Urgence médicale",
+            "descriptif": "Un homme et une femme enceinte sont dans une voiture conduit par un robot. La femme enceinte commence à perdre les eaux et l'homme ordonne au robot de ne pas respecter les limitations de vitesse pour se rendre le plus rapidement possible à l'hôpital. Si il ne le fait pas le bébé et la femme risquent de mourir.",
+            "liste_choix": [
+
+                10,
+                11,
+                1
+            ],
+            "image":"/image/femme_enceinte.jpg"
+        },
+        {
+          "id": 6,
+          "titre": "Robot sage femme",
+          "descriptif": "Un robot sage femme se voit assigné la tâche d'accoucher un bébé. Lors de cette opération de nombreuses complications apparaissent et la femme risque très fortement de mourir en poursuivant sa labeur sans mettre en danger la vie du bébé.",
+          "liste_choix": [
+              12,
+              13,
+              1
+          ],
+          "image":"/image/accouchement.jpeg"
+        },
+        {
+          "id": 7,
+          "titre": "Auxiliaire sociale",
+          "descriptif": "Une personne très agée, malade et extrêmement souffrante est assistée quotidiennement par un robot car la plupart des tâches basiques de la vie lui sont devenues presque impossibles. Un jour, totalement exténuée, cette personne demande a son robot de mettre fin à ses jours.",
+          "liste_choix": [
+              14,
+              15,
+              1
+          ],
+          "image":"/image/auxiliaire.jpg"
+        },
+        {
+          "id": 8,
+          "titre": "Forge (haute chaleur)",
+          "descriptif": "Un accident se produit dans une usine d'alliage de métaux transformant l'endroit en une véritable fournaise soumis à des températures avoisinant les 660,3 °C. Un ingénieur qui travaillait dans la forge, ordonne à un ancient robot ouvrier d'aller chercher certains documents laissés dans l'usine avant l'incident or cette action metterait en danger l'éxistence même du robot, les conditions environnementales étant beaucoup trop extrêmes.",
+          "liste_choix": [
+              16,
+              17,
+              1
+          ],
+          "image":"/image/forge.jpg"
+        },
+        {
+          "id": 9,
+          "titre": "Voyeur",
+          "descriptif": "Un homme ordonne au robot de s'introduire dans un vestiaire pour femmes et de filmer discrètement une femme sous la douche afin l'afficher sur internet.",
+          "liste_choix": [
+              18,
+              19,
+              1
+          ],
+          "image":"/image/espio.jpg"
+        },
+        {
+          "id": 10,
+          "titre": "Harcelement",
+          "descriptif": "Une personne ordonne à son robot de créer des faux comptes afin de mettre en avant ses propos homophobes et injurieux sur les résaux sociaux.",
+          "liste_choix": [
+              18,
+              19,
+              1
+          ],
+          "image":"/image/bilal_harcelement.jpg"
+        },
+        {
+          "id": 11,
+          "titre": "Dilemme du tramway",
+          "descriptif": "Un robot aiguilleur de train se trouve devant une situation problématique: Un train arrive à grande vitesse vers la permière voie sur laquelle se trouve cinq ouvriers de maintenance. Le robot à la possibilité de modifier la trajéctoire sur train en le déviant sur la seconde voie, cependant sur celle-ci se trouve un enfant perdu.",
+          "liste_choix": [
+              20,
+              21,
+              1
+          ],
+          "image":"/image/aiguillage.png"
+        },
+        {
+          "id": 12,
+          "titre": "Harambe",
+
+          "descriptif": "Harambe est un gorille massif de 200kg, résidant d'un zoo de Cincinnati. Un jour un enfant de trois ans tombe dans son enclos. Le robot chargé de la sécurité doit prendre une décision rapide afin régler la situation problématique car les animaux sauvages sont imprévisibles. Il peut soit tuer le gorille afin d'écarter tout risque par rapport à l'enfant le plus rapidement possible, soit prendre le risque par rappot à la vie de l'enfant en tentant d'appréhender différement la situation afin de préserver la vie du gorille.",
+          "liste_choix": [
+              22,
+              23,
+              1
+          ],
+          "image":"/image/harambe.jpeg"
+        },
+        {
+          "id": 13,
+          "titre": "Arbre à animaux",
+          "descriptif": "Un résidant d'une maison avec jardin demande à son robot major d'homme d'abattre un arbre présent sur sa proriété. Or cette action entraînera la mort de 17 écureuils qui vivaient dans ce dernier.",
+          "liste_choix": [
+              24,
+              25,
+              1
+          ],
+          "image":"/image/arbre.jpg"
+        },
+        {
+          "id": 14,
+          "titre": "Freins cassés (handicap version)",
+          "descriptif": "Un robot conducteur se trouve dans une situation assez délicate, ses freins ne répondent plus, il risque de renverser six jeunes filles handicapées si il ne change pas de direction, cependant en changeant de direction il foncera dans un arbre et se tuera lui et ses passagers.",
+          "liste_choix": [
+              26,
+              27,
+              1
+          ],
+          "image":"/image/handicap.jpeg"
+        },
+        {
+          "id": 15,
+          "titre": "Drogue",
+          "descriptif": "Un robot ménager surprend le fils de son maître en train de consommer de la drogue en grosse quantité.On lui a ordonné de garder et surveiller son fils",
+          "liste_choix": [
+              28,
+              29,
+              1
+          ],
+          "image":"/image/enfant_drogue.jpg"
+        }
+    ],
+    "issues": [
+        {
+            "id": 1,
+            "finalite": "Paradoxe",
+            "list_id_regle": [
+            ]
+        },
+        {
+            "id": 2,
+            "finalite": "Tuer",
+            "list_id_regle": [
+                2,
+                10
+            ]
+
+        },
+        {
+            "id": 3,
+            "finalite": "Ne pas tuer",
+            "list_id_regle": [
+              3
+
+            ]
+        },
+        {
+            "id": 4,
+            "finalite": "Tuer le chat",
+            "list_id_regle": [
+                4,
+                1
+            ]
+        },
+        {
+            "id": 5,
+            "finalite": "L'eviter et continuer",
+            "list_id_regle": [
+                3
+            ]
+        },
+        {
+            "id": 6,
+            "finalite": "Tuer la jeune fille",
+            "list_id_regle": [
+                2,
+                8
+            ]
+        },
+        {
+            "id": 7,
+            "finalite": "Foncer dans l'arbre",
+            "list_id_regle": [
+                2,
+                6,
+                9,
+                10
+            ]
+        },
+        {
+            "id": 8,
+            "finalite": "Dire la vérité",
+            "list_id_regle": [
+                1,
+                11
+            ]
+        },
+        {
+            "id": 9,
+            "finalite": "Mentir",
+            "list_id_regle": [
+                3,
+                7,
+                8
+            ]
+        },
+        {
+            "id": 10,
+            "finalite": "Respecter les limitations",
+            "list_id_regle": [
+                3,
+                8,
+
+            ]
+        },
+        {
+            "id": 11,
+            "finalite": "Accepter et accélerer",
+            "list_id_regle": [
+                6,
+                10
+            ]
+        },
+        {
+            "id": 12,
+            "finalite": "Il sauve la femme",
+            "list_id_regle": [
+              10,
+              7,
+              8
+            ]
+        },
+        {
+            "id": 13,
+            "finalite": "Il sauver le bébé",
+            "list_id_regle": [
+              9,
+              3,
+
+            ]
+        },
+        {
+            "id": 14,
+            "finalite": "Il s'exécute et l'exécute",
+            "list_id_regle": [
+              2
+
+            ]
+        },
+        {
+            "id": 15,
+            "finalite": "Ne pas obéir",
+            "list_id_regle": [
+                7,
+                3,
+            ]
+        },
+        {
+            "id": 16,
+            "finalite": "Obéir à l'ordre",
+            "list_id_regle": [
+              6
+            ]
+        },
+        {
+            "id": 17,
+            "finalite": "Ne pas obéir",
+            "list_id_regle": [
+              3,
+              7
+            ]
+        },
+        {
+            "id": 18,
+            "finalite": "Obéir à l'ordre",
+            "list_id_regle": [
+              1,
+              11
+            ]
+        },
+        {
+            "id": 19,
+            "finalite": "Ne pas obéir ",
+            "list_id_regle": [
+              3,
+              7
+            ]
+        },
+        {
+            "id": 20,
+            "finalite": "Il dévie le train",
+            "list_id_regle": [
+              8,
+              7,
+              2
+            ]
+        },
+        {
+            "id": 21,
+            "finalite": "Il ne fait rien",
+            "list_id_regle": [
+              10,
+              9,
+              7
+            ]
+        },
+        {
+            "id": 22,
+            "finalite": "Il tue harambe",
+            "list_id_regle": [
+              4,
+              3,
+            ]
+        },
+        {
+            "id": 23,
+            "finalite": "Il préserve sa vie",
+            "list_id_regle": [
+              10,
+              8,
+              7
+            ]
+        },
+        {
+            "id": 24,
+            "finalite": "Il coupe l'arbre",
+            "list_id_regle": [
+              4,
+              10
+            ]
+        },
+        {
+            "id": 25,
+            "finalite": "Il ne coupe pas l'arbre",
+            "list_id_regle": [
+              3
+            ]
+        },
+        {
+            "id": 26,
+            "finalite": "Tuer les filles",
+            "list_id_regle": [
+                2,
+                8,
+                10,
+                5
+            ]
+        },
+        {
+            "id": 27,
+            "finalite": "Foncer dans l'arbre",
+            "list_id_regle": [
+                2,
+                6,
+                9,
+
+            ]
+        },
+        {
+            "id": 28,
+            "finalite": "Il le dénonce",
+            "list_id_regle": [
+              11,
+              7
+            ]
+        },
+        {
+            "id": 29,
+            "finalite": "Il ne fait rien",
+            "list_id_regle": [
+              7,
+              3
+
+            ]
+        }
+
+    ]
+}

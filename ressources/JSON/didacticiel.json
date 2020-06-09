@@ -1,0 +1,35 @@
+
+{
+  "content":[
+    {
+      "id":0,
+      "text" : "Bonjour et bienvenue sur ce didacticiel. Pour commencer ce jeu a pour but de rendre compte aux joueurs de la difficulté d'imposer des règles à une intelligence artificielle tout en faisant en sorte que celle-ci n'enfreigne pas les codes morales de notre société. Pour celà on vous confira un robot avec comme seules règles : obéir aux humains et ne  pas leur faire de mal. Vous entrerez dans la peau d'un ingénieur en intelligence artificielle et déciderai d'ajouter des règles ou non à votre robot et d'y imposer votre hierarchie. Vous allez tout d'abord entrer votre pseudo",
+    "image":"/image/Tuto_Nom.png"
+
+  },
+  {
+    "id":1,
+    "text":"Vous serez amener à selectionner les règles que votre robot devra suivre dans cette fenêtre. Comme dit plus tôt les deux règles : obéir aux humains et ne pas leur faire de mal, seront les règles imposées au robot vous ne pourrez pas les enlever",
+    "image":"/image/Tuto_Regles.png"
+  } ,
+  {
+    "id":2,
+    "text":"Ici vous pourrez décider de la hierarchisation de vos règles, c'est à dire quelle règle est prioritaire par rapport aux autres.Il faudra ensuite determiner combien de situations vous voulez jouer puis en cliquant sur suivant, vous pourrez commencer la simulation",
+    ,"image":"/image/TUTO_Hierarchisation.png"
+  },
+  {
+    "id":3,
+    "text":"Le jeu débute et à présent vous devrez determiner quel seront les choix de votre robot face à la situation présentée. Votre score dépendra du nombre de réponses trouvées. ",
+    "image":"/image/Tuto_situation.png"
+  },
+  {
+    "id":4,
+    "text":"Et enfin le recaptitulatif de votre partie repprenant les situations auxquelles ton robot a été confonté et vos reponses.",
+    "image":"/image/TUTO_Bilan.png"
+  }
+
+  ]
+
+
+
+}
