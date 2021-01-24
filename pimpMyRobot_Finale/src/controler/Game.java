@@ -3,6 +3,8 @@ package controler;
 import java.io.FileNotFoundException;
 
 import java.io.FileReader;
+import java.io.InputStreamReader;
+import java.io.FileInputStream;
 
 import java.io.IOException;
 
@@ -324,7 +326,8 @@ public class Game {
 
         Object obj;
         try {
-            JSONObject jo  = (JSONObject) new JSONParser().parse(new FileReader(path));
+            //JSONObject jo  = (JSONObject) new JSONParser().parse(new FileReader(path));
+            JSONObject jo  = (JSONObject) new JSONParser().parse(new InputStreamReader(new FileInputStream(path), "UTF-8"));
 
             JSONArray ja = (JSONArray) jo.get("regles");
             for(int i = 0; i<ja.size();i++){

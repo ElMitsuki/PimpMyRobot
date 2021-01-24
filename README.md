@@ -51,17 +51,22 @@ Après les éléments essentiels créée, le robot va devoir passer les test:
 Une fois toutes les situations résolues, un récapitulatif des situations s'affiche avec le score du joueur ainsi que la liste des issues choisient par le joueur et par le robot pour chaques situations.
 ![Image Bilan](/ressources/Images/TUTO_Bilan.png)
 
-# Installation
-
-* Ouvrez une console et tapez : `git clone https://git.unistra.fr/t3_ia/t432_maf19-t3-b.git`, si **vous n'avez pas git**, cliquez [ici](https://git-scm.com/downloads) et suivez les indications.
-
 # Documentation
 
 Pour accéder à la documentation, ouvrez le fichier `menu.html` lorsque vous avez téléchargé le projet, ce fichier est situé dans le **répertoire pimpMyRobot_Finale/javadoc/menu.html** du projet.
 
-### Execution
+# Execution
 Après avoir installé le jeu, assurez-vous d'avoir bien téléchargé la dernière version du logiciel JDeveloper. <br>
 - Allez dans pimpMyRobot_Finale puis double-cliquez sur pimpMyRobot_Finale.jpr. <br>
   (cela devrait lancer l'application par l'intermediaire de JDeveloper, sinon faites clique-droit, ouvrir avec JDeveloper).
 - Une fois que l'IDE JDeveloper est lancé, déployez l'arborescence du projet (icone (+) à gauche du nom de projet) <br>
   et rendez vous sur le package view et enfin faites clique-droit, Run sur la classe FenetreAppelante.java.
+### Prérequis
+Vous devez posséder une version récente du JDK sur votre machine et avoir ajouté le dossier bin/ du JDK <br>
+dans votre variable d'environnement PATH afin de pouvoir utiliser convenablement les commandes cités dans la section suivante.
+### Execution
+Ouvrez un invité de commande et déplacez-vous vers le dossier **pimpMyRobot_Finale/classes** puis entrez la commande suivante :
+- Si vous êtes sur Windows :
+  `java -cp ".;../../ressources/JSON/json-simple-1.1.1.jar" view/FenetreAppelante`
+- Si vous êtes sur Linux :
+  `java -cp ".:../../ressources/JSON/json-simple-1.1.1.jar" view/FenetreAppelante`

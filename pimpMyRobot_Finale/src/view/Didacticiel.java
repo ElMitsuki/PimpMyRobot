@@ -5,6 +5,8 @@ import java.awt.Color;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.InputStreamReader;
+import java.io.FileInputStream;
 
 import java.io.IOException;
 
@@ -151,7 +153,8 @@ public class Didacticiel extends javax.swing.JFrame {
         String text ="";
         String image ="";
         try {
-            JSONObject jo  = (JSONObject) new JSONParser().parse(new FileReader(path));
+            //JSONObject jo  = (JSONObject) new JSONParser().parse(new FileReader(path));
+            JSONObject jo  = (JSONObject) new JSONParser().parse(new InputStreamReader(new FileInputStream(path), "UTF-8"));
 
             JSONArray ja = (JSONArray) jo.get("content");
             for(int i = 0; i<ja.size();i++){
