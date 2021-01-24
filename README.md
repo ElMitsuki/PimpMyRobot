@@ -56,11 +56,6 @@ Une fois toutes les situations résolues, un récapitulatif des situations s'aff
 Pour accéder à la documentation, ouvrez le fichier `menu.html` lorsque vous avez téléchargé le projet, ce fichier est situé dans le **répertoire pimpMyRobot_Finale/javadoc/menu.html** du projet.
 
 # Execution
-Après avoir installé le jeu, assurez-vous d'avoir bien téléchargé la dernière version du logiciel JDeveloper. <br>
-- Allez dans pimpMyRobot_Finale puis double-cliquez sur pimpMyRobot_Finale.jpr. <br>
-  (cela devrait lancer l'application par l'intermediaire de JDeveloper, sinon faites clique-droit, ouvrir avec JDeveloper).
-- Une fois que l'IDE JDeveloper est lancé, déployez l'arborescence du projet (icone (+) à gauche du nom de projet) <br>
-  et rendez vous sur le package view et enfin faites clique-droit, Run sur la classe FenetreAppelante.java.
 ### Prérequis
 Vous devez posséder une version récente du JDK sur votre machine et avoir ajouté le dossier bin/ du JDK <br>
 dans votre variable d'environnement PATH afin de pouvoir utiliser convenablement les commandes cités dans la section suivante.
