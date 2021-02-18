@@ -4,4 +4,4 @@ Commandes de compilation et d'exécution à partir du dossier pimpMyRobot_Finale
   javac -encoding utf8 -d ../classes -cp ".;../../ressources/JSON/json-simple-1.1.1.jar" controler/Game.java
 
 - Exécution :
-  java -cp ".;../../ressources/JSON/json-simple-1.1.1.jar" view/FenetreAppelante
+  java -cp "../classes;../../ressources/JSON/json-simple-1.1.1.jar" view/FenetreAppelante
